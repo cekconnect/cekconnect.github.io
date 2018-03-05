@@ -120,7 +120,7 @@ header .logo a:hover::before {
 }
 
 .flex-container > div > p{
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 .row {
@@ -410,6 +410,42 @@ footer a{
 		display: inline-block;
 		margin-right: 0;
 	}
+
+	.flex-container > div > a{
+	  	display: block;
+	}
+
+	.tilt {
+  	  -webkit-transition: all 0.5s ease;
+         -moz-transition: all 0.5s ease;
+           -o-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+              transition: all 0.5s ease;
+	}
+	 
+	.tilt:active {
+	  -webkit-transform: rotate(-20deg);
+	     -moz-transform: rotate(-20deg);
+	       -o-transform: rotate(-20deg);
+	      -ms-transform: rotate(-20deg);
+	          transform: rotate(-20deg);
+	}
+
+	.tilt-news {
+	  -webkit-transition: all 0.1s ease;
+	     -moz-transition: all 0.1s ease;
+	       -o-transition: all 0.1s ease;
+	      -ms-transition: all 0.1s ease;
+	          transition: all 0.1s ease;
+	}
+	 
+	.tilt-news:active {
+	  -webkit-transform: rotate(-1.5deg);
+	     -moz-transform: rotate(-1.5deg);
+	       -o-transform: rotate(-1.5deg);
+	      -ms-transform: rotate(-1.5deg);
+	          transform: rotate(-1.5deg);
+	}
 }
 
 @media screen and (max-width:380px) {
@@ -448,14 +484,12 @@ footer a{
 	  
 	}
 
-
-}
-
-@media screen and (max-width:380px){
 	.toggle{
 		margin-top: 30px;
 	}
+
 }
+
 
 @media screen and (max-width:363px){
 	.toggle{
